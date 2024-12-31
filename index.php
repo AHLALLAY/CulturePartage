@@ -69,12 +69,6 @@
                                     class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transform hover:scale-[1.02] transition duration-300 font-semibold shadow-md">
                                     Se connecter
                                 </button>
-
-                                <!-- <p class="text-center text-sm text-gray-600">Pas encore de compte ?
-                                    <a href="#" onclick="switchForm('register')" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200">
-                                        Inscrivez-vous
-                                    </a>
-                                </p> -->
                             </form>
                         </div>
                     </div>
@@ -93,34 +87,42 @@
                                 </button>
                             </div>
                             <form method="POST" class="space-y-6">
+                                <div class="flex space-x-2">
+                                    <div>
+                                        <label for="f_name" class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+                                        <input type="text" name="f_name" id="f_name" placeholder="Votre Nom"
+                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
+                                    </div>
+                                    <div>
+                                        <label for="l_name" class="block text-sm font-medium text-gray-700 mb-1">Prenom</label>
+                                        <input type="text" name="l_name" id="l_name" placeholder="Votre Prenom"
+                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
+                                    </div>
+                                </div>
                                 <div>
-                                    <label for="email-register" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                                    <input type="email" name="email" id="email-register" placeholder="Votre Email"
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="Votre Email"
+                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
+                                </div>
+
+                                <div class="flex space-x-2">
+                                <div>
+                                    <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Mote de Passe</label>
+                                    <input type="password" name="password" id="password" placeholder="mote de passe"
                                         class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
                                 </div>
 
                                 <div>
-                                    <label for="confirm-email" class="block text-sm font-medium text-gray-700 mb-1">Confirmer Email</label>
-                                    <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirmer votre Email"
+                                    <label for="confirmer_pass" class="block text-sm font-medium text-gray-700 mb-1">Confirmer Mot de passe</label>
+                                    <input type="password" name="confirmer_pass" id="confirmer_pass" placeholder="Votre Mot de passe"
                                         class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
                                 </div>
-
-                                <div>
-                                    <label for="password-register" class="block text-sm font-medium text-gray-700 mb-1">Mot de passe</label>
-                                    <input type="password" name="password" id="password-register" placeholder="Votre Mot de passe"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 placeholder-gray-400">
                                 </div>
 
                                 <button type="submit"
                                     class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transform hover:scale-[1.02] transition duration-300 font-semibold shadow-md">
                                     Créer un compte
                                 </button>
-
-                                <!-- <p class="text-center text-sm text-gray-600">Déjà inscrit ?
-                                    <a href="#" onclick="switchForm('login')" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200">
-                                        Connectez-vous
-                                    </a>
-                                </p> -->
                             </form>
                         </div>
                     </div>
