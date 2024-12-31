@@ -11,12 +11,8 @@
 
 <body class="bg-gradient-to-br from-gray-50 to-gray-100 font-sans leading-normal tracking-normal min-h-screen">
     <div class="relative h-screen overflow-hidden">
-        <!-- Background Image avec effet parallax subtil -->
-        <img src="/Asset/hero.jpg" alt="Hero Image"
-            class="w-full h-full object-cover transform scale-105 transition-transform duration-1000">
-
-        <!-- Dark Overlay amélioré -->
-        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/60">
+        <img src="/Asset/hero.jpg" alt="Hero Image" class="w-full h-full object-cover transform scale-105 transition-transform duration-1000">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/30">
             <!-- Content Container -->
             <div class="relative h-full flex flex-col items-center justify-center">
                 <!-- Hero Content -->
